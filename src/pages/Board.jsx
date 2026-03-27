@@ -3,7 +3,7 @@ import { Button, Container, Grid, Typography, Box } from "@mui/material";
 import useTaskStore from "../store/store";
 import { useNavigate } from "react-router-dom";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
-import FilterBar from "../components/filterBar";
+import FilterBar from "../components/FilterBar"; 
 import TaskCard from "../components/TaskCard";
 
 const statuses = ["To Do", "In Progress", "Done"];
